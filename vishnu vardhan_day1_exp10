@@ -1,0 +1,6 @@
+cat("vishnu vardhan_192110147_day01\n")
+speed_data <- c(78.3, 81.8, 82, 74.2, 83.4, 84.5, 82.9, 77.5, 80.9, 70.6)
+iqr_value <- IQR(speed_data)
+std_dev_value <- sd(speed_data)
+cat("Interquartile Range (IQR):", iqr_value, "\n")
+cat("Standard Deviation:", std_dev_value, "\n")
