@@ -1,0 +1,4 @@
+cat("vishnu vardhan_192110147_day02")
+data(mtcars)
+boxplot(mpg ~ cyl, data = mtcars, col = "lightblue", main = "Boxplot: mpg vs. cyl",
+        xlab = "Number of Cylinders", ylab = "Miles per Gallon")
